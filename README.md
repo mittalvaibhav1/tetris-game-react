@@ -1,2 +1,3 @@
 # tetris-game-react
-Old school tetris implemented using react. Play the game here 👇
+The old school game of Tetris implemented using react. <br/>
+Play the game [here](https://bsf7k.csb.app/)
