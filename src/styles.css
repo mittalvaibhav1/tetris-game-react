@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+  font-family: "Grandstander", cursive;
+}
+
+.App > h1 {
+  font-size: 3em;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+}
+
+.score > span {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+
+.score > p {
+  font-size: 18px;
+  margin-left: 10px;
+}
